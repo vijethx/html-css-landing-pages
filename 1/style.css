@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(65 59 66);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: red; */
+}
+
+#part2 {
+  height: 100%;
+  width: 68%;
+  background-color: skyblue;
+  /* background-image: url(./model.jpg); */
+  background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(123, 114, 117, 0.393);
+}
+
+#part3 {
+  height: 100%;
+  width: 6%;
+  /* background-color: green; */
+}
+
+#text-div {
+  /* height: 300px; */
+  position: absolute;
+  width: 455px;
+  /* background: red; */
+  left: 7%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div>h1 {
+  font-size: 95px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 78px;
+  color: white;
+  letter-spacing: 8px;
+}
+
+#small-img-div {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#vertical-text {
+  position: absolute;
+  /* width: 100%; */
+  /* background-color: red; */
+  right: -49.5%;
+  top: -12%;
+  /* transform-origin: 0% 0%; */
+  /* overflow-x: auto; */
+}
+
+#vertical-text>h1 {
+  color: transparent;
+  letter-spacing: 12px;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  text-transform: uppercase;
+
+}
+
+#nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+  left: 7%;
+  top: 5%;
+  /* background-color: red; */
+}
+
+#nav>img {
+  height: 50px;
+}
+
+#nav>h5 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+}
